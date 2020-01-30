@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.emart"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:5:5-34:19
+12        android:allowBackup="true"
+12-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.emart.MartDash" />
+20-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:12:9-55
+20-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:12:19-43
+21        <activity android:name="com.example.emart.Cart" />
+21-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:13:9-42
+21-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:13:19-39
+22        <activity android:name="com.example.emart.UserDash" />
+22-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:14:9-46
+22-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:14:19-43
+23        <activity
+23-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:15:9-18:59
+24            android:name="com.example.emart.Main2Activity"
+24-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:16:13-42
+25            android:label="@string/title_activity_main2"
+25-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:17:13-57
+26            android:theme="@style/AppTheme.NoActionBar" />
+26-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:18:13-56
+27        <activity
+27-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:19:9-22:59
+28            android:name="com.example.emart.Signup"
+28-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:20:13-35
+29            android:label="@string/title_activity_signup"
+29-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:21:13-58
+30            android:theme="@style/AppTheme.NoActionBar" />
+30-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:22:13-56
+31        <activity
+31-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:23:9-26:59
+32            android:name="com.example.emart.Signinup"
+32-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:24:13-37
+33            android:label="@string/title_activity_signinup"
+33-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:25:13-60
+34            android:theme="@style/AppTheme.NoActionBar" />
+34-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:26:13-56
+35        <activity android:name="com.example.emart.MainActivity" >
+35-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:27:9-33:20
+35-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:27:19-47
+36            <intent-filter>
+36-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:29:17-69
+37-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:31:17-77
+39-->J:\Android projects\FYP2\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+45            android:authorities="com.example.emart.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+48    </application>
+49
+50</manifest>
